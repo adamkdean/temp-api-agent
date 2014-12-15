@@ -1,0 +1,23 @@
+{
+  "name": "temp-api-agent",
+  "version": "1.0.0",
+  "description": "Temperature gathering agent for mini-project",
+  "main": "src/index.js",
+  "dependencies": {
+    "request": "^2.51.0",
+    "spi": "^0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imdsm/temp-api-agent"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "author": "Adam K Dean <adamkdean@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imdsm/temp-api-agent/issues"
+  },
+  "homepage": "https://github.com/imdsm/temp-api-agent"
+}
