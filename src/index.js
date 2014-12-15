@@ -12,6 +12,10 @@ if (!fs.existsSync(device)) {
     throw 'Error, SPI is not activated';
 }
 
+if (api_key == '') {
+    throw 'API_KEY not set';
+}
+
 function read(spi, channel, callback) {
     if (spi === undefined) return;
 
